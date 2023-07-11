@@ -17,7 +17,9 @@ O trabalho foi desenvolvido por completo na linguagem **Haskell**, uma linguagem
 
 Outro fator que pesou positivamente para a escolha da linguagem Haskell foi o seu **sistema de tipagem forte**, que é extremamente necessário para a construção do compilador.
 
-Na disciplina, não foi abordado o assunto da transformação efetiva do programa criado em linguagem de máquina, porque esse é um processo complexo não-produtivo para a disciplina, envolvendo conhecimentos mais pertinentes à disciplina de [Arquitetura de Computadores](https://github.com/peedrofernandes/udesc-aoc) do que Compiladores propiramente dito. Para realizar essa tarefa, seria necessário, a partir do código analisado final, transformar em código de máquina para a maioria das **arquiteturas de hardware**, o que seria uma tarefa difícil. 
+Na disciplina, não foi abordado o assunto da transformação efetiva do programa criado em linguagem de máquina, porque esse é um processo complexo não-produtivo para a disciplina, envolvendo conhecimentos mais pertinentes à disciplina de [Arquitetura de Computadores](https://github.com/peedrofernandes/udesc-aoc) do que Compiladores propiramente dito. Para realizar essa tarefa, seria necessário, a partir do código analisado final, transformar em código de máquina para a maioria das **arquiteturas de hardware**, o que seria uma tarefa difícil.
+
+A linguagem compilada não tem nome. É, basicamente, uma versão muito simples e inútil da linguagem C.
 
 ## <a id="features"></a>Funcionalidades
 
@@ -64,7 +66,7 @@ O compilador pode emitir tanto **warnings** quanto **mensagens de erro**. Ao emi
 
 Antes de rodar o compilador em sua máquina local, certifique-se de ter o interpretador **ghci** instalado na sua máquina. Ele pode ser baixado [aqui](https://haskell.org/downloads).
 
-Faça um clone do seu projeto na sua máquina local, executando o seguinte comando:
+Faça um clone do projeto na sua máquina local, executando o seguinte comando:
 
 ```git clone https://github.com/peedrofernandes/my-compiler.git```
 
